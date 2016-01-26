@@ -1,0 +1,63 @@
+﻿
+<div class="ilny-loader">
+    <div>
+        <span class="ouro">
+            <span class="left"><span class="anim"></span></span>
+            <span class="right"><span class="anim"></span></span>
+        </span>
+    </div>
+</div>
+<div class="offset-canvas-mobile">
+    <a href="#" class="close-canvas fa fa-times"></a>
+    <div>
+        <a href="/#"><img src="images/logo.png" alt="Logo" height="47" width="120"></a>
+        <nav>
+            <ul class="mobile-nav">
+                @Html.Partial("_Menu", null)
+            </ul>
+        </nav>
+        <ul class="mobile-addits">
+            <li><a href="#" title="Search for terms" class="fa fa-search search-pan-open"></a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- Search Panel -->
+<div class="search-panel">
+    <a href="#" class="close-panel fa fa-times"></a>
+    <div>
+        <form action="#" method="POST" role="form">
+            <div class="form-group">
+                <label for="searchy-term">What are you looking for ?</label>
+                <input type="text" class="form-control" id="searchy-term" placeholder="Press enter to search">
+            </div>
+        </form>
+    </div>
+</div>
+<!-- End Search Panel -->
+<!-- Header Navigation Fixed -->
+<div class="header-wrapper {{layoutClass}}">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+                <a href="/#" class="logo-holder">
+                    <img src="images/logo.png" height="47" width="120" alt="Logo">
+                </a>
+            </div>
+            <div class="hidden-xs col-sm-10 col-md-10 col-lg-10 text-right">
+                <nav>
+                    <ul class="list-unstyled list-inline clearfix">
+                        @Html.Partial("_Menu", null)
+                    </ul>
+                    <ul class="list-unstyled list-inline clearfix">
+                        <li><a href="#" class="fa fa-search search-pan-open"></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="visible-xs text-right col-xs-6">
+                <a href="#" class="mobile-menu-btn open-nav fa fa-bars"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Header Navigation Fixed -->

@@ -1,0 +1,82 @@
+﻿<div ng-controller="registerController">
+    <div class="single-intro-head typo-head">
+        <div class="container">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h1>Registration Form</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact-page-wrapp" class="register-page">
+        <div class="container">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 contact-page">
+                <div class="mockup-content">
+                    <h3>Contact Form</h3>
+                    <form>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="ilny-name" ng-model="data.UserName" required ng-minlength="5" name="ilny-name" placeholder="Name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="form-group">
+                                    <input type="email" required class="form-control" id="ilny-email" ng-model="data.Email" name="ilny-email" placeholder="Your Email...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="ilny-name" ng-model="data.Password" required ng-minlength="8" name="ilny-name" placeholder="Password">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="form-group">
+                                    <input type="password" required ng-minlength="8" class="form-control" ng-model="data.ConfirmPassword" id="ilny-email" name="ilny-email" placeholder="Confirm Password">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" required id="ilny-name" name="ilny-name" ng-model="data.ContactNo" placeholder="Contact Number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="form-group">
+                                    <select style="max-width:100%;" required ng-model="data.Role">
+                                        <option value="">Please select</option>
+                                        <option value="donor">As Donor</option>
+                                        <option value="center">Center</option>
+                                        <option value="doctor">Doctor</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <input type="submit" ng-click="SignUpClick()" value="Sign Up" class="pull-right ilny-shadowed">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 contact-page next">
+                <h2>Save a Life. Volunteer.</h2>
+                <p>Sign up as registered donor at PakDonor and become the reason for a saved life.</p>
+                <h3>A life awaits...</h3>
+                <p>Be the one to save it.</p>
+            </div>
+        </div>
+    </div>
+</div>

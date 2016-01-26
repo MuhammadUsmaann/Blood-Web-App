@@ -25,6 +25,7 @@
 app.controller('registerController', ['$scope', '$rootScope', "SignUpService", function ($scope, $rootScope, SignUpService) {
     $rootScope.layoutClass = "contact-form fixed-nav";
     $rootScope.fixHeight = 0;
+    $rootScope.title = "Registration";
 
     $scope.data = {
         UserName: "",

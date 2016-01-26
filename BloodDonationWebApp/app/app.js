@@ -37,6 +37,7 @@ app.config(function ($routeProvider) {
 
 app.run(function ($rootScope) {
     $rootScope.layoutClass = "";
+    $rootScope.title = "";
     $rootScope.fixHeight = "";
     $rootScope.ChangeHeight = function () {
         var fh = $('.fullscreen-wrapper, .header-page-wrapp').outerHeight();
@@ -45,17 +46,4 @@ app.run(function ($rootScope) {
 
 });
 var serviceBase = 'http://localhost:9175/';
-//app.constant('ngAuthSettings', {
-//    apiServiceBaseUri: serviceBase,
-//    clientId: 'ngAuthApp'
-//});
-
-//app.config(function ($httpProvider) {
-//    $httpProvider.interceptors.push('authInterceptorService');
-//});
-
-//app.run(['authService', function (authService) {
-//    authService.fillAuthData();
-//}]);
-
 

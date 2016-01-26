@@ -1,0 +1,35 @@
+﻿#login-page {
+    width: 50%;
+    margin: 0 auto; 
+}
+#login-page .register-page ,#login-page .container {
+    width: 90%;
+    height:500px;
+}
+@media only screen and (max-width: 1199px) {
+	#login-page {
+		width: 60%;
+	}
+    .register-page ,#login-page .container{
+         width: 90%;
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    #login-page {
+        width: 80%;
+    }
+    .register-page ,#login-page .container{
+         width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+	#login-page {
+		width: 98%;
+	}
+    .register-page ,#login-page .container{
+         width: 100%;
+    }
+}

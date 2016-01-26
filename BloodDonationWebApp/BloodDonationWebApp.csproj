@@ -190,6 +190,8 @@
     <Content Include="app\controllers\loginController.js" />
     <Content Include="app\controllers\registerController.js" />
     <Content Include="app\directives\homeDirective.js" />
+    <Content Include="Scripts\angular\angular-local-storage.min.js" />
+    <Content Include="app\scripts\authComplete.js" />
     <Content Include="app\views\bloodfacts.html" />
     <Content Include="app\views\bloodtips.html" />
     <Content Include="app\views\contact.html" />
@@ -254,7 +256,6 @@
   <ItemGroup>
     <Folder Include="app\services\" />
     <Folder Include="App_Data\" />
-    <Folder Include="Scripts\app\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -334,6 +335,7 @@
     <Content Include="Views\Shared\_Header.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
     <Content Include="Views\Shared\_CopyRight.cshtml" />
+    <None Include="Properties\PublishProfiles\BloodWebApplication.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
