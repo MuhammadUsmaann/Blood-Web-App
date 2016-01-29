@@ -15,7 +15,7 @@
     <AssemblyName>BloodDonationWebApp</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -185,11 +185,14 @@
     <Content Include="app\controllers\bloodFactsController.js" />
     <Content Include="app\controllers\bloodTipsController.js" />
     <Content Include="app\controllers\contactController.js" />
+    <Content Include="app\controllers\doctoradvicesController.js" />
     <Content Include="app\controllers\homeController.js" />
     <Content Include="app\controllers\indexController.js" />
     <Content Include="app\controllers\loginController.js" />
     <Content Include="app\controllers\registerController.js" />
+    <Content Include="app\controllers\searchresultsController.js" />
     <Content Include="app\directives\homeDirective.js" />
+    <Content Include="app\views\doctoradvices.html" />
     <Content Include="Scripts\angular\angular-local-storage.min.js" />
     <Content Include="app\scripts\authComplete.js" />
     <Content Include="app\views\bloodfacts.html" />
@@ -355,7 +358,9 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>12493</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:9175/</IISUrl>
+          <IISUrl>http://localhost/BloodApp</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost/BloodApp</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
