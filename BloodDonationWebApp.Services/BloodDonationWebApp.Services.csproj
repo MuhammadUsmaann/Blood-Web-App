@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Dapper, Version=1.40.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.42\lib\net45\Dapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,6 +44,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\RolesRepository.cs" />
+    <Compile Include="Services\UsersRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BloodDonationWebApp.Database\BloodDonationWebApp.Database.csproj">
+      <Project>{35d336bb-2f7b-44c8-b1ae-2b906c22cc56}</Project>
+      <Name>BloodDonationWebApp.Database</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BloodDonationWebApp.Entities\BloodDonationWebApp.Entities.csproj">
+      <Project>{81570fb2-be3a-4b75-9a0d-d1ea604b36a4}</Project>
+      <Name>BloodDonationWebApp.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

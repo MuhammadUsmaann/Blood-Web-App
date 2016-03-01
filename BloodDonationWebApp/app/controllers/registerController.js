@@ -34,9 +34,11 @@ app.controller('registerController', ['$scope', '$rootScope', "SignUpService", f
         ConfirmPassword: "",
         ContactNo: "",
         Role: "",
+        Country: "",
+        State: "",
+        City: "",
     }
     $scope.SignUpClick = function () {
-
         var result = SignUpService($scope.data);
         result.then(function (result) {
             if (result.success) {

@@ -176,7 +176,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -339,6 +338,16 @@
     <Content Include="Views\Shared\_Footer.cshtml" />
     <Content Include="Views\Shared\_CopyRight.cshtml" />
     <None Include="Properties\PublishProfiles\BloodWebApplication.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BloodDonationWebApp.Entities\BloodDonationWebApp.Entities.csproj">
+      <Project>{81570fb2-be3a-4b75-9a0d-d1ea604b36a4}</Project>
+      <Name>BloodDonationWebApp.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BloodDonationWebApp.Services\BloodDonationWebApp.Services.csproj">
+      <Project>{40aa6035-f156-4dc6-bfd9-55f6ec8abbce}</Project>
+      <Name>BloodDonationWebApp.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

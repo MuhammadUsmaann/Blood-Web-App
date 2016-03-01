@@ -12,6 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ title }}-Blood Donation</title>
     <meta name="description" content="">
+    <base href="@Request.Url.AbsolutePath" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="apple-touch-icon" href="favicon.png">
     <link rel="icon" type="img/ico" href="favicon.ico">
@@ -26,17 +27,11 @@
     <![endif]-->
     @Html.Partial("_Header", null)
 
-
     <div class="screen-fix" style="height:{{ fixHeight }}px;"></div>
-
 
     @RenderBody()
 
-
     @Html.Partial("_Footer", null)
-
-
-
 
     <div id="scroll-top">
         <a href="#" class="fa fa-arrow-up"></a>
@@ -51,10 +46,27 @@
 
     <script src="~/Scripts/other/main.js"></script>
     <script src="~/app/app.js"></script>
+    <script src="~/app/controllers/bloodFactsController.js"></script>
+    <script src="~/app/controllers/bloodTipsController.js"></script>
+    <script src="~/app/controllers/contactController.js"></script>
+    <script src="~/app/controllers/doctoradvicesController.js"></script>
+    <script src="~/app/controllers/homeController.js"></script>
+    <script src="~/app/controllers/indexController.js"></script>
+    <script src="~/app/controllers/registerController.js"></script>
+    <script src="~/app/controllers/loginController.js"></script>
+    <script src="~/app/controllers/searchresultsController.js"></script>
 
-    @Scripts.Render("~/bundles/Controller")
+
+
+    <script src="~/app/directives/homeDirective.js"></script>
+
+
+
+
+
+    @*@Scripts.Render("~/bundles/Controller")
     @Scripts.Render("~/bundles/Directive")
-    @Scripts.Render("~/bundles/Services")
+    @Scripts.Render("~/bundles/Services")*@
 
 </body>
 </html>

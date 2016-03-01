@@ -1,0 +1,8 @@
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Database\bin\Debug\BloodDonationWebApp.Database.dll
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Database\bin\Debug\BloodDonationWebApp.Database.pdb
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Database\bin\Debug\Dapper.dll
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Database\bin\Debug\Dapper.pdb
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Database\bin\Debug\Dapper.xml
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Database\obj\Debug\BloodDonationWebApp.Database.csprojResolveAssemblyReference.cache
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Database\obj\Debug\BloodDonationWebApp.Database.dll
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Database\obj\Debug\BloodDonationWebApp.Database.pdb

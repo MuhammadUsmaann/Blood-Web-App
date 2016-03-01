@@ -22,6 +22,7 @@ app.config(function ($routeProvider) {
         controller: "contactController",
         templateUrl: baseUrl + "/app/views/contact.html"
     });
+
     $routeProvider.when("/register", {
         controller: "registerController",
         templateUrl: baseUrl + "/app/views/register.html"
@@ -36,14 +37,17 @@ app.config(function ($routeProvider) {
         controller: "bloodTipsController",
         templateUrl: baseUrl + "/app/views/bloodtips.html"
     });
+
     $routeProvider.when("/advices", {
         controller: "doctoradvicesController",
         templateUrl: baseUrl + "/app/views/doctoradvices.html"
     });
+
     $routeProvider.when("/results", {
         controller: "searchresultsController",
         templateUrl: baseUrl + "/app/views/searchresults.html"
     });
+
     $routeProvider.otherwise({ redirectTo: "/home" });
 
 });

@@ -1,36 +1,53 @@
 ﻿
 var app = angular.module('BloodDonationApp', ['ngRoute']);
 
+var serviceBase = 'http://localhost:9175/';
+
+
 app.config(function ($routeProvider) {
+
+    var baseUrl = $('base').attr('href');
 
     $routeProvider.when("/home", {
         controller: "homeController",
-        templateUrl: "/app/views/home.html"
+        templateUrl: baseUrl + "/app/views/home.html"
     });
 
     $routeProvider.when("/login", {
         controller: "loginController",
-        templateUrl: "/app/views/login.html"
+        templateUrl: baseUrl + "/app/views/login.html"
     });
 
     $routeProvider.when("/contact", {
         controller: "contactController",
-        templateUrl: "/app/views/contact.html"
+        templateUrl: baseUrl + "/app/views/contact.html"
     });
+
     $routeProvider.when("/register", {
         controller: "registerController",
-        templateUrl: "/app/views/register.html"
+        templateUrl: baseUrl + "/app/views/register.html"
     });
 
     $routeProvider.when("/bloodfacts", {
         controller: "bloodFactsController",
-        templateUrl: "/app/views/bloodfacts.html"
+        templateUrl: baseUrl + "/app/views/bloodfacts.html"
     });
 
     $routeProvider.when("/bloodtips", {
         controller: "bloodTipsController",
-        templateUrl: "/app/views/bloodtips.html"
+        templateUrl: baseUrl + "/app/views/bloodtips.html"
     });
+
+    $routeProvider.when("/advices", {
+        controller: "doctoradvicesController",
+        templateUrl: baseUrl + "/app/views/doctoradvices.html"
+    });
+
+    $routeProvider.when("/results", {
+        controller: "searchresultsController",
+        templateUrl: baseUrl + "/app/views/searchresults.html"
+    });
+
     $routeProvider.otherwise({ redirectTo: "/home" });
 
 });
@@ -45,5 +62,4 @@ app.run(function ($rootScope) {
     };
 
 });
-var serviceBase = 'http://localhost:9175/';
 

@@ -1,0 +1,5 @@
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Entities\bin\Debug\BloodDonationWebApp.Entities.dll
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Entities\bin\Debug\BloodDonationWebApp.Entities.pdb
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Entities\obj\Debug\BloodDonationWebApp.Entities.csprojResolveAssemblyReference.cache
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Entities\obj\Debug\BloodDonationWebApp.Entities.dll
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Entities\obj\Debug\BloodDonationWebApp.Entities.pdb

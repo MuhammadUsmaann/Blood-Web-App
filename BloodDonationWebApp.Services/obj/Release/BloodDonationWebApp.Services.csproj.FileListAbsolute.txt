@@ -1,0 +1,12 @@
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Services\bin\Release\BloodDonationWebApp.Services.dll
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Services\bin\Release\BloodDonationWebApp.Services.pdb
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Services\bin\Release\BloodDonationWebApp.Database.dll
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Services\bin\Release\BloodDonationWebApp.Entities.dll
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Services\bin\Release\Dapper.dll
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Services\bin\Release\BloodDonationWebApp.Database.pdb
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Services\bin\Release\BloodDonationWebApp.Entities.pdb
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Services\bin\Release\Dapper.pdb
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Services\bin\Release\Dapper.xml
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Services\obj\Release\BloodDonationWebApp.Services.csprojResolveAssemblyReference.cache
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Services\obj\Release\BloodDonationWebApp.Services.dll
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Services\obj\Release\BloodDonationWebApp.Services.pdb

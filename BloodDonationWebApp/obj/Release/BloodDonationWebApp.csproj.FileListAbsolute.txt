@@ -58,3 +58,13 @@ D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp\bin\Microsof
 D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp\obj\Release\BloodDonationWebApp.dll
 D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp\obj\Release\BloodDonationWebApp.pdb
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp\bin\BloodDonationWebApp.Entities.dll
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp\bin\BloodDonationWebApp.Services.dll
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp\bin\BloodDonationWebApp.Database.dll
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp\bin\Dapper.dll
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp\bin\BloodDonationWebApp.Entities.pdb
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp\bin\BloodDonationWebApp.Services.pdb
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp\bin\BloodDonationWebApp.Database.pdb
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp\bin\Dapper.pdb
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp\bin\Dapper.xml
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp\obj\Release\BloodDonationWebApp.csprojResolveAssemblyReference.cache

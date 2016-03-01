@@ -1,0 +1,4 @@
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Entities\bin\Release\BloodDonationWebApp.Entities.dll
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Entities\bin\Release\BloodDonationWebApp.Entities.pdb
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Entities\obj\Release\BloodDonationWebApp.Entities.dll
+D:\Freelancing\Version Controller\Blood-Web-App\BloodDonationWebApp.Entities\obj\Release\BloodDonationWebApp.Entities.pdb

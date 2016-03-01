@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonationWebApp", "Bloo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonationWebApp.Database", "BloodDonationWebApp.Database\BloodDonationWebApp.Database.csproj", "{35D336BB-2F7B-44C8-B1AE-2B906C22CC56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonationWebApp.Services", "BloodDonationWebApp.Services\BloodDonationWebApp.Services.csproj", "{40AA6035-F156-4DC6-BFD9-55F6EC8ABBCE}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonationWebApp.Entities", "BloodDonationWebApp.Entities\BloodDonationWebApp.Entities.csproj", "{81570FB2-BE3A-4B75-9A0D-D1EA604B36A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonationWebApp.Services", "BloodDonationWebApp.Services\BloodDonationWebApp.Services.csproj", "{40AA6035-F156-4DC6-BFD9-55F6EC8ABBCE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonationWebApp.CodeGenerator", "BloodDonationWebApp.CodeGenerator\MU.CodeGenerator\BloodDonationWebApp.CodeGenerator.csproj", "{5B619598-6C52-47FE-9D27-903531121BF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +27,18 @@ Global
 		{35D336BB-2F7B-44C8-B1AE-2B906C22CC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35D336BB-2F7B-44C8-B1AE-2B906C22CC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35D336BB-2F7B-44C8-B1AE-2B906C22CC56}.Release|Any CPU.Build.0 = Release|Any CPU
-		{81570FB2-BE3A-4B75-9A0D-D1EA604B36A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81570FB2-BE3A-4B75-9A0D-D1EA604B36A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81570FB2-BE3A-4B75-9A0D-D1EA604B36A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81570FB2-BE3A-4B75-9A0D-D1EA604B36A4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{40AA6035-F156-4DC6-BFD9-55F6EC8ABBCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{40AA6035-F156-4DC6-BFD9-55F6EC8ABBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40AA6035-F156-4DC6-BFD9-55F6EC8ABBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40AA6035-F156-4DC6-BFD9-55F6EC8ABBCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81570FB2-BE3A-4B75-9A0D-D1EA604B36A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81570FB2-BE3A-4B75-9A0D-D1EA604B36A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81570FB2-BE3A-4B75-9A0D-D1EA604B36A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81570FB2-BE3A-4B75-9A0D-D1EA604B36A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B619598-6C52-47FE-9D27-903531121BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B619598-6C52-47FE-9D27-903531121BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B619598-6C52-47FE-9D27-903531121BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B619598-6C52-47FE-9D27-903531121BF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
